@@ -25,7 +25,7 @@ export const LEVEL_REQUIREMENTS: Record<UserLevel, { minBalance: number; minRefe
   5: { minBalance: 5000, minReferrals: 120 },
 };
 
-export const DEPOSIT_FIXED_AMOUNTS = [10, 60, 100, 250, 500, 1000, 2500, 5000] as const;
+export const DEPOSIT_FIXED_AMOUNTS = [ 60, 100, 250, 500, 1000, 2500, 5000] as const;
 
 export const REFERRAL_REWARD_TABLE: ReferralRewardTierRow[] = [
   { investment: 100, level1: 8, level2: 10, level3: 12, level4: 15, level5: 18 },
